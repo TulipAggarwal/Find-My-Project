@@ -46,7 +46,6 @@ plotly==5.11.0
 plotly-express==0.4.1
 protobuf==3.20.3
 pyarrow==10.0.1
-PyAudio==0.2.12
 PyAutoGUI==0.9.53
 pycparser==2.21
 pydeck==0.8.0
