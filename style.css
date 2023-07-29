@@ -1,0 +1,60 @@
+section[data-testid='stSidebar'] {
+    background-color: rgb(17, 17, 17);
+    min-width:unset !important;
+    width: unset !important;
+    flex-shrink: unset !important;  
+}
+
+button[kind="header"] {
+    background-color: transparent;
+    color:rgb(160, 228, 209)
+}
+
+@media(hover){
+    /* header element to be removed */
+    header[data-testid="stHeader"] {
+        display:none;
+    }
+
+    /* The navigation menu specs and size */
+    section[data-testid='stSidebar'] > div {
+        height: 100%;
+        width: 95px;
+        position: relative;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s ease;
+        padding-top: 60px;
+        white-space: nowrap;
+    }
+
+    /* ON HOVER */
+    section[data-testid='stSidebar'] > div:hover{
+    width: 180px;
+    }
+
+    /* The button on the streamlit navigation menu - hidden */
+    button[kind="header"] {
+        display: none;
+    }
+}
+     
+@media(max-width: 272px){
+    
+    section[data-testid='stSidebar'] > div {
+        width:10em;
+    }
+}
+/* .css-1629p8f e16nr0p31{
+    display: flex;
+} */
+
+.block-container.css-18e3th9.egzxvld2 {
+    padding-top: 4%;
+    padding-bottom: 0.9%;
+    padding-right: 3%;
+    padding-left: 7%;
+}
