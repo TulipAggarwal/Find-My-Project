@@ -72,6 +72,7 @@ sortedcontainers==2.4.0
 soupsieve==2.3.2.post1
 SpeechRecognition==3.8.1
 statsmodels==0.13.5
+st_on_hover_tabs==1.0.0
 streamlit==1.16.0
 streamlit-aggrid==0.3.4.post3
 streamlit-lottie==0.0.3
